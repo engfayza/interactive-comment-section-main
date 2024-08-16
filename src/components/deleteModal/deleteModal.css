@@ -1,0 +1,79 @@
+.delete-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.delete-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: left;
+
+  width: 90vw;
+  max-width: 310px;
+  height: 210px;
+
+
+  padding: 20px;
+
+  border-radius: 15px;
+  background-color: var(--white);
+}
+
+.confirmation-message{
+  color: var(--grayish-blue) ;
+}
+
+
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.cancel-button{
+  font-size: 16px;
+  font-weight: 700;
+
+  width: 135px;
+  height: 50px;
+
+  margin: 10px;
+
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--grayish-blue);
+}
+
+.delete-container .delete-button{
+  font-size: 16px;
+  font-weight: 700;
+
+  width: 135px;
+  height: 50px;
+
+  margin: 10px;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--soft-red);
+}
+
+
+
+

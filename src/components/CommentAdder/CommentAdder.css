@@ -1,0 +1,99 @@
+
+.adder-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 97%;
+  max-width: 800px;
+
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: var(--white);
+}
+
+.adder--body{
+  display: flex;
+  justify-content: space-around;
+
+  width: 97%;
+  max-width: 800px;
+
+
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: var(--white);
+}
+
+.adder-profile{
+  height: 50px;
+  margin: 10px;
+}
+
+.adder-textbox{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-align: left;
+
+  width: 70%;
+  height: 100px;
+
+  margin: 10px;
+  padding: 10px;
+
+  border-radius: 7px;
+  border-width: thin;
+  border-color: var(--light-gray);
+  color: var(--dark-blue);
+  background-color: var(--white);
+
+  resize: none;
+}
+.adder-send{
+  font-size: 16px;
+  font-weight: 700;
+
+  width: 110px;
+  height: 50px;
+
+  margin: 10px;
+
+  border-radius: 10px;
+  border-width: 0;
+  color: var(--white);
+  background-color: var(--moderate-blue);
+}
+
+.adder-send:hover, .adder-send:focus{
+  opacity: 0.5;
+}
+
+.adder--footer{
+    display: none !important;
+}
+
+@media screen and (max-width:700px){
+
+  .adder-textbox{
+    width: 100%;
+    margin: 0;
+  }
+
+  .adder-profile{
+    height: 30px;
+    margin: 10px;
+  }
+
+  .adder--footer{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .desktop-view{
+    display: none !important;
+  }
+
+}
